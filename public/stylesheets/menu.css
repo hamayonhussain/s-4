@@ -1,0 +1,26 @@
+body {
+    background-image: url("../images/foodie_pic.jpg"), linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+
+  .ui.huge.header {
+
+    font-size: 100px;
+    text-align: center;
+    color: white; 
+  }
+
+  img {
+
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .ui.celled.table {
+
+    background-image: linear-gradient(to bottom, brown, red)
+  }

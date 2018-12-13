@@ -1,0 +1,153 @@
+<html>
+<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+
+<title>The Sizzling Griddle</title>
+
+<script>
+    $(document)
+        .ready(function () {
+
+            // fix menu when passed
+            $('.masthead')
+                .visibility({
+                    once: false,
+                    onBottomPassed: function () {
+                        $('.fixed.menu').transition('fade in');
+                    },
+                    onBottomPassedReverse: function () {
+                        $('.fixed.menu').transition('fade out');
+                    }
+                })
+                ;
+
+            // create sidebar and attach to menu open
+            $('.ui.sidebar')
+                .sidebar('attach events', '.toc.item')
+                ;
+            $("#diana").click(function () {
+                <div class="ui modal">
+                    <div class="header">Diana</div>
+                    <div class="content">
+                        <p><a href="https://github.com/LamarC">Diana Viana Repository</a></p>
+
+        
+</script>
+
+<body class="pushable">
+
+    <div class="ui large secondary inverted pointing menu">
+
+        <a href="/" class="active item">Home</a>
+        <a href="/login" class="active item">Login</a>
+        <a href="/createaccount" class="active item">Sign Up</a>
+        <a href="/menu" class="active item">Menu</a>
+        <div class="right item">
+            <a href="/viewcart" class="ui inverted button">View Cart</a>
+
+        </div>
+    </div>
+    
+    </div>
+    <div class="pusher">
+        <div class="ui inverted vertical masthead center aligned segment">
+
+            <div class="ui container">
+
+            </div>
+
+            <div class="ui text container">
+                <h1 class="ui inverted header">
+                    The Sizzling Griddle
+                </h1>
+                <h2>Are you starving? We're here to help.</h2>
+                <div class="ui animated primary huge button" tabindex="0">
+                    <div class="visible content">Menu</div>
+                    <div class="hidden content">
+                      <a href="/menu"> <i class="right arrow icon"></i></a>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="ui vertical stripe segment">
+            <div class="ui middle aligned stackable grid container">
+                <div class="row">
+                    <div class="eight wide column">
+                        <h3 class="ui header">We Love Brunch Just As Much As You Do.</h3>
+                        <p>Our chefs have carefully curated a menu of well balanced goodness. From a simple order of French
+                            Toast with Tureky sausage to more complicated dishes, The Sizzling Griddle has you covered.</p>
+                        <h3 class="ui header">Order Online!</h3>
+                        <p>You want to eat brunch in your pajamas while catching up on your favorite shows? Place your order
+                            online and we will have it ready for you.</p>
+                        <h3 class="ui header">Have You Ordered With Us Before?</h3>
+                        <p>Create an account to save your favorite savory dishes, or login to quickly create an order based
+                            on your history with us.</p>
+                    </div>
+                    <div class="six wide right floated column">
+                        <img src="images/brunch_pic.jpg" class="ui large bordered rounded image">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="center aligned column">
+                        <div class="ui huge animated fade button" tabindex="0">
+                            <div class="visible content">
+                                <i class="desktop icon"></i>
+                            </div>
+                            <div class="hidden content">
+                                <a href="/login">Login</a>
+
+                            </div>
+                        </div>
+                        <div class="ui huge animated fade button" tabindex="0">
+                            <div class="visible content">Create An Account</div>
+                            <div class="hidden content">
+                                <a href="/createaccount">Free!!!</a>
+                            </div>
+                        </div>
+                        <div class="ui huge animated fade button" tabindex="0">
+                            <div class="visible content">Menu</div>
+                            <div class="hidden content">
+                                <a href="/viewcart">Menu</a>
+                                <i class="utensils icon"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <div class="ui stackable inverted divided equal height stackable grid">
+                    <div class="three wide column">
+                        <h4 class="ui inverted header">About</h4>
+                        <div class="ui inverted link list">
+
+                            <p>Please send all inquiries to 9990 Richmond Avenue, Houston, TX 77042</p>
+                            <p>Links to GitHub Repositories below</p>
+                            <div class="ui buttons">
+                                <button class="ui button" id="diana">
+                                    <a href="https://github.com/LamarC" target="_blank">Diana Viana</a>
+                                </button>
+                                <button class="ui button" id="imran">
+                                    <a href="https://github.com/hamayonhussain" target="_blank">Imran Hamayon</a>
+                                </button>
+                                <button class="ui button" id="rj">
+                                    <a href="https://github.com/Lighthall5" target="_blank">RJ Lighthall</a>
+                                </button>
+                                <button class="ui button" id="josh">
+                                    <a href="https://github.com/joshehenry" target="_blank">Joshua Henry</a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

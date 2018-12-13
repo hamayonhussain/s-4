@@ -1,0 +1,103 @@
+<html>
+<link rel="stylesheet" type="text/css" href="stylesheets/login.css">
+<title>The Sizzling Griddle</title>
+
+
+
+<script>
+  $(document)
+    .ready(function () {
+      $('.ui.form')
+        .form({
+          fields: {
+            email: {
+              identifier: 'email',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Please enter your e-mail'
+                },
+                {
+                  type: 'email',
+                  prompt: 'Please enter a valid e-mail'
+                }
+              ]
+            },
+            password: {
+              identifier: 'password',
+              rules: [
+                {
+                  type: 'empty',
+                  prompt: 'Please enter your password'
+                },
+                {
+                  type: 'length[6]',
+                  prompt: 'Your password must be at least 6 characters'
+                }
+              ]
+            }
+          }
+        })
+        ;
+    })
+    ;
+</script>
+</head>
+
+<body>
+
+
+
+  <body class="pushable">
+
+    <div class="ui large secondary inverted pointing menu">
+
+      <a href="/" class="active item">Home</a>
+      <a href="/login" class="active item">Login</a>
+      <a href="/createaccount" class="active item">Sign Up</a>
+      <a href="/menu" class="active item">Menu</a>
+      <div class="right item">
+        <a href="/viewcart" class="ui inverted button">View Cart</a>
+
+      </div>
+    </div>
+
+    </div>
+    <div class="ui container"></div>
+    <div class="ui middle aligned center aligned grid">
+      <div class="column">
+        <h2 class="ui black image header">
+
+          <div class="ui huge header" style="color: white;">Welcome to The Sizzling Griddle!</div>
+        </h2>
+        <form class="ui large form">
+          <div class="ui stacked segment">
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="user icon"></i>
+                <input type="text" name="email" placeholder="E-mail address">
+              </div>
+            </div>
+            <div class="field">
+              <div class="ui left icon input">
+                <i class="lock icon"></i>
+                <input type="password" name="password" placeholder="Password">
+              </div>
+            </div>
+            <div class="ui fluid large black submit button">Login</div>
+          </div>
+
+          <div class="ui error message"></div>
+
+        </form>
+
+        <div class="ui message">
+          New to us?
+          <a href="/createaccount">Sign Up</a>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>

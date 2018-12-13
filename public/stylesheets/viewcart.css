@@ -1,0 +1,117 @@
+body {
+    background-image: url("../images/better_cart.jpg"), linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+
+  .ui.huge.header {
+
+    text-align: center;
+    color: white; 
+ 
+    font-size: 100px; 
+  
+    margin-top: 5%; 
+    border-color: black
+  }
+
+  .ui.inverted.vertical.footer.segment {
+    background-color: #4158D0;
+    background-image: linear-gradient(33deg, #4158D0 0%, #C850C0 62%);
+    font-size: 1.7vh;
+    
+}
+
+
+.row {
+  display: -ms-flexbox;
+  background-image: linear-gradient( to bottom, brown,red );
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin: 0 -16px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%; 
+    flex: 25%;
+    margin-top: 5%;
+  }
+  
+  .col-50 {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  
+  .col-75 {
+    -ms-flex: 75%; 
+    flex: 75%;
+  }
+  
+  .col-25,
+  .col-50,
+  .col-75 {
+    padding: 0 16px;
+  }
+  
+  .container {
+    padding: 5px 20px 15px 20px;
+   
+    border-radius: 3px;
+    margin-top: 2%; 
+    max-width: 50%; 
+    margin-left: 33%; 
+  }
+  
+  input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+  }
+  
+  .btn {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+  }
+  
+  .btn:hover {
+    background-color:blue;
+  }
+  
+  span.price {
+    float: right;
+    color: blue;
+  }
+  
+ 
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .col-25 {
+      margin-bottom: 20px;
+    }
+  }

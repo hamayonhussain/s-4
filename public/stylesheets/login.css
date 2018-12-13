@@ -1,0 +1,30 @@
+.ui.middle.aligned.center.aligned.grid {
+    background-image: url("../images/foodie_pic.jpg"), linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+  body > .grid {
+    height: 100%;
+  }
+  .image {
+    margin-top: -100px;
+  }
+  .column {
+    max-width: 450px;
+    margin-bottom: 150px;
+  };
+
+  .ui.header {
+
+    font-size: 100px;
+    text-align: center;
+    color: white; 
+  }
+
+ 
+  
+  
+
