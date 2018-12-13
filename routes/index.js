@@ -2,18 +2,14 @@
 const express = require("express");
 const app = express();
 
-
 /* GET home page. */
-//router.get("/", function(req, res, next) {
-//res.send( { title: "Josh" });
-//});
 app.use(express.json());
 module.exports = function (app) {
 
     app.get("/", function (req, res) {
         res.render("index");
     });
-
+    
     app.post("/createaccount", function (req, res, next) {
         req.checkbody("username", "Username field cannot be empty.");
         req.checkbody("username", "Username must be between 4-15 characters long.").len(4, 15);
@@ -43,8 +39,9 @@ module.exports = function (app) {
 };
 
 
-var router = express.Router();
+const router = express.Router();
 router.get("/", function (req, res, next) {
     res.send({ title: "Josh" });
 });
+
 module.exports = router;
