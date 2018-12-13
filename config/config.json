@@ -2,7 +2,7 @@
     "development": {
       "username": "root",
       "password": null,
-      "database": "cli-example",
+      "database": "menu_db",
       "host": "127.0.0.1",
       "port": 8080,
       "dialect": "mysql"
@@ -21,6 +21,6 @@
       "database": "menu_db",
       "host": "127.0.0.1",
       "port": 8080,
-      "dialect": "mysql2"
+      "dialect": "mysql"
     }
   }
