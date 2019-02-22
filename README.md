@@ -9,7 +9,7 @@ Live Link https://obscure-dawn-52273.herokuapp.com/
 A user will access our website, login and order a variety of food items (entrees, sides and drinks). The website will have several routes (Home/Contact Us/Menu/Cart). Also, each of these items will come from a SQL database and once the user orders it they will be able to pay online or pickup at the restaurant. The app will focus on two portions; The app will use authentication for the user to login, view the menu, place an order and provide payment, this triggers various operations from the backend to handle the user's requests' provide ongoing status updates to the user and giving them an ETA when the order is placed. 
 
 
-##Technologies
+## Technologies
 ..*Node/Express Server (check)
 ..*MySQL Database (check)
 ..*API Routes (check)
