@@ -3,6 +3,7 @@
 ## The Sizzling Griddle from Sharp Four
 
 Live Link https://obscure-dawn-52273.herokuapp.com/
+[Click me to see me in live](https://obscure-dawn-52273.herokuapp.com/)
 
 ![Alt Text](https://media.giphy.com/media/xUA7b6kzzYVKmcqZfW/giphy.gif)
 
