@@ -10,11 +10,11 @@ A user will access our website, login and order a variety of food items (entrees
 
 
 ##Technologies
-1.Node/Express Server (check)
-2.MySQL Database (check)
-3.API Routes (check)
-4.Heroku Deployment
-5.New Front End Framework (Materialize, Semantic)
-6.MVC (check)
+..*Node/Express Server (check)
+..*MySQL Database (check)
+..*API Routes (check)
+..*Heroku Deployment
+..*New Front End Framework (Materialize, Semantic)
+..*MVC (check)
 
 ![Alt Text](https://media.giphy.com/media/lmBV7ec6jRIPK/giphy.gif)
